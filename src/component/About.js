@@ -1,7 +1,9 @@
 import React from 'react';
+import Nav from './Nav'
 
 function About () {
 	return <div>
+		<Nav/>
 		<h2>GeeksforGeeks is a computer science portal for geeks!</h2>
 
 		Read more about us at :

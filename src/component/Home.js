@@ -1,13 +1,13 @@
 import React from 'react'
 // import { Nav } from 'react-bootstrap'
-// import Nav from './Nav'
+import Nav from './Nav'
 
 
 
 function Home() {
   return (
     <div>
-        
+        <Nav/>
         <h1>Welcome to the world of Geeks!</h1>
 
 
