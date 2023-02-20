@@ -4,8 +4,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter ,Routes, Route} from 'react-router-dom';
 import Home from './component/Home';
+import Offer from './component/Offer';
+import Groceries from './component/Groceries';
 import About from './component/About';
-import Contact from './component/Contact';
 import './App.css';
 
 
@@ -18,8 +19,9 @@ render() {
 		<Routes>
     
 				<Route exact path='/' element={< Home />}></Route>
+				<Route exact path='/Offer' element={< Offer />}></Route>
+				<Route exact path='/Groceries' element={< Groceries />}></Route>
 				<Route exact path='/About' element={< About />}></Route>
-				<Route exact path='/Contact' element={< Contact />}></Route>
 		</Routes>
     </BrowserRouter>
 		</div>
