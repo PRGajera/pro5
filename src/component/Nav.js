@@ -10,7 +10,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import { AiOutlineHeart } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
 import { MdOutlineCall } from "react-icons/md";
-
+import imgLogo from '../img/GRO4U Online Grocery.png';
 
 const nav = () => {
 	return (
@@ -20,7 +20,7 @@ const nav = () => {
 					<div className='top-header'>
 						<div className='licon'>
 							<a href='' className='brand'>
-								<span id='n1'>GRO</span><span id='n2'>4U</span>
+								<img src={imgLogo} alt="" />
 							</a>
 						</div>
 						<div className='micon'>
@@ -41,7 +41,6 @@ const nav = () => {
 						</div>
 					</div>
 
-					<div id='n3'>online Grocery</div>
 				</div>
 
 				<div >

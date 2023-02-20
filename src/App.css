@@ -11,7 +11,10 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
+.wp-icon{
+  width: 30px;
+  height: 30px;
+}
 .licon{
   display: inline-block;
   width: 95px;

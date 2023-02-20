@@ -7,6 +7,7 @@ import { FaYoutubeSquare } from "react-icons/fa";
 import {ImMail } from "react-icons/im";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { GoLocation  } from "react-icons/go";
+import WhatsAppIcon from '../img/whatsapp.png';
 const Footer = () => {
     return (
         <div className='row' >
@@ -20,7 +21,7 @@ const Footer = () => {
                 <pre>This is a perfect place for fresh Vegetables and Fruits</pre>
                 <div id='bicon'>
                     <a href='#' className='icons'><AiFillFacebook /></a>
-                    <a href='#' className='icons'><FaWhatsappSquare /></a>
+                    <img src={WhatsAppIcon} alt=""  className="wp-icon"/>
                     <a href='#' className='icons'><FaInstagramSquare /></a>
                     <a href='#' className='icons'><FaYoutubeSquare /></a>
                 </div>
@@ -28,7 +29,7 @@ const Footer = () => {
             <div className='col-sm-3' id='col2' >
             <a href='#'className='row ' ><ImMail  /><span> </span></a>
             <a href='#' className='row ' ><FaPhoneSquareAlt /><span> </span></a>
-            <a href='#' className='row ' ><GoLocation  /><span> </span></a>
+            <a href='#' className='row ' ><GoLocation /><span> </span></a>
             </div>
             <div className='col-sm-4' id='col3' >
                 This is my first block
