@@ -39,25 +39,14 @@
   margin-right: 5px;
   margin-left: -2em;
 }
+.icons {
+  border-radius: 30px;
+  background-color: #45b624;
+  padding: 5px;
+  color: white;
+}
+
 #icon3 {
-  border-radius: 30px;
-  background-color: #45b624;
-  padding: 5px;
-  color: white;
-}
-#icon4 {
-  border-radius: 30px;
-  background-color: #45b624;
-  padding: 5px;
-  color: white;
-}
-#icon5 {
-  border-radius: 30px;
-  background-color: #45b624;
-  padding: 5px;
-  color: white;
-}
-#icon6 {
   color: #9BD98E ;
   text-decoration: none;
 }
@@ -132,4 +121,21 @@ line-height: 16px;
     background-color:  #45b624;
     color: white;
     list-style: none;
+  }
+
+  #col1{
+background-color: #9BD98E;
+
+  }
+  #col2{
+    background-color: yellow;
+  }
+  #col3{
+    background-color: rgb(128, 238, 152);
+  }
+  #cn1{
+    margin-top: 30px;
+  }
+  .row{
+    height: 500px;
   }

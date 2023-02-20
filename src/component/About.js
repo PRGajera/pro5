@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from './Nav';
-
+import Footer from './Footer'
 function About () {
 	return <div>
 		<Nav/>
@@ -10,6 +10,7 @@ function About () {
 		<a href="https://www.geeksforgeeks.org/about/">
 			https://www.geeksforgeeks.org/about/
 		</a>
+		<Footer/>
 	</div>
 }
 export default About;

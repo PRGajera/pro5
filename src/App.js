@@ -8,6 +8,7 @@ import Offer from './component/Offer';
 import Groceries from './component/Groceries';
 import About from './component/About';
 import './App.css';
+import Footer from './component/Footer';
 
 
 class App extends Component {
@@ -22,6 +23,7 @@ render() {
 				<Route exact path='/Offer' element={< Offer />}></Route>
 				<Route exact path='/Groceries' element={< Groceries />}></Route>
 				<Route exact path='/About' element={< About />}></Route>
+				<Route exact path='/Footer' element={< Footer/>}></Route>
 		</Routes>
     </BrowserRouter>
 		</div>

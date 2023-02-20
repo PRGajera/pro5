@@ -1,11 +1,14 @@
 import React from 'react'
 import Nav from './Nav'
+import Footer from './Footer'
 
 const Groceries = () => {
   return (
     <div>
         <Nav/>
-        Groceries</div>
+        Groceries
+        <Footer/></div>
+        
   )
 }
 

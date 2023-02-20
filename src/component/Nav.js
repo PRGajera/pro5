@@ -1,5 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.js';
 
 
 
@@ -32,9 +33,9 @@ const nav = () => {
 							<input type="location" placeholder="Order Tracking ..." aria-label="Search" />
 							<span href='#' id='icon2'><GoLocation /></span>
 							<span className='ricon'>
-								<a href='#' id='icon3'><CgProfile /></a>
-								<a href='#' id='icon4'><AiOutlineShoppingCart /></a>
-								<a href='#' id='icon5'><AiOutlineHeart /></a>
+								<a href='#' className='icons'><CgProfile /></a>
+								<a href='#' className='icons'><AiOutlineShoppingCart /></a>
+								<a href='#' className='icons'><AiOutlineHeart /></a>
 							</span>
 
 						</div>
@@ -62,7 +63,7 @@ const nav = () => {
 						<li className="navli">
 							<a href="/About" className="link">About us</a>
 						</li>
-						<a href='' id='support'><span id='icon6'><MdOutlineCall />+919882456752</span><span className="link"> 24/7support</span></a>
+						<a href='' id='support'><span id='icon3'><MdOutlineCall />+919882456752</span><span className="link"> 24/7support</span></a>
 					</ul>
 
 				</div>
