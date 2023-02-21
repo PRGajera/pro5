@@ -7,7 +7,7 @@ import { FaYoutubeSquare } from "react-icons/fa";
 import {ImMail } from "react-icons/im";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { GoLocation  } from "react-icons/go";
-import WhatsAppIcon from '../img/whatsapp.png';
+// import WhatsAppIcon from '../img/whatsapp.png';
 const Footer = () => {
     return (
         <div className='row' >
@@ -21,7 +21,7 @@ const Footer = () => {
                 <pre>This is a perfect place for fresh Vegetables and Fruits</pre>
                 <div id='bicon'>
                     <a href='#' className='icons'><AiFillFacebook /></a>
-                    <img src={WhatsAppIcon} alt=""  className="wp-icon"/>
+                    {/* <img src={WhatsAppIcon} alt=""  className="wp-icon"/> */}
                     <a href='#' className='icons'><FaInstagramSquare /></a>
                     <a href='#' className='icons'><FaYoutubeSquare /></a>
                 </div>
