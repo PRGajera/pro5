@@ -3,11 +3,11 @@
 // export default App;
 import React, { Component } from 'react';
 import { BrowserRouter ,Routes, Route} from 'react-router-dom';
+import './App.css';
 import Home from './component/Home';
 import Offer from './component/Offer';
 import Groceries from './component/Groceries';
 import About from './component/About';
-import './App.css';
 import Footer from './component/Footer';
 
 
