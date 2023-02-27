@@ -9,6 +9,8 @@ import Offer from './component/Offer';
 import Groceries from './component/Groceries';
 import About from './component/About';
 import Footer from './component/Footer';
+// import { Carousel } from 'bootstrap';
+import Carousel1 from './component/Carousel1';
 
 
 class App extends Component {
@@ -24,6 +26,8 @@ render() {
 				<Route exact path='/Groceries' element={< Groceries />}></Route>
 				<Route exact path='/About' element={< About />}></Route>
 				<Route exact path='/Footer' element={< Footer/>}></Route>
+				<Route exact path='/Carousel1' element={<Carousel1/>}></Route>
+
 		</Routes>
     </BrowserRouter>
 		</div>

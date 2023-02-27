@@ -6,7 +6,7 @@ import 'bootstrap/dist/js/bootstrap.js';
 
 import Nav from './Nav';
 import Footer from './Footer' 
-import carousel from './carousel'
+import Carousel1 from './Carousel1'
 import fastdelivery from '../img/fd.png';
 import returninstant from '../img/rn.png';
 import payment from '../img/sp.png';
@@ -41,7 +41,7 @@ import payment from '../img/sp.png';
 					<div className='container-fluid '>
 						<h3>HAPPY CUSTMOER</h3>
 						<h5> Oue Custmoer Say About Us</h5>
-					<carousel/>
+					<Carousel1/>
 							
 						
 					</div>
